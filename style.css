@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.post_page{
+    height: 800px;
+    width: 500px;
+    margin: 50px auto;
+    background-color: rgb(236, 234, 234);
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.for_post{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px 0px rgb(155, 154, 154);
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.watch .quantity_views,
+.likes .headers .quantity_likes,
+.comments .headers .quantity_comments,
+.marks .headers .quantity_marks,
+.repost .quantity_repost,
+.bookmarks .headers .quantity_bookmarks{
+    align-self: center;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.watch img,
+.likes .headers img,
+.comments .headers img,
+.marks .headers img,
+.repost img,
+.bookmarks .headers img{
+    align-self: center;
+}
+.watch .views,
+.likes .headers .for-likes,
+.comments .headers .for-comments,
+.marks .headers .for-marks,
+.repost .for-repost,
+.bookmarks .headers .for-bookmarks{
+    align-self: center;
+}
+
+.watch{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.marks,
+.bookmarks,
+.comments,
+.likes,
+.repost{
+   margin-top: 10px;
+}
+
+.likes .headers,
+.comments .headers,
+.marks .headers,
+.repost .headers,
+.bookmarks .headers{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.for_photo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.for_photo img{
+  height: 75px;
+  border-radius: 7px;
+  margin-bottom: 3px;
+}
+.persons{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10px;
+}
+.for_photo .nick{
+    color: rgb(138, 137, 137);
+}
